@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
- void main() => runApp(Secondpage());
+ void main() => runApp(FirstPage());
 
-class Secondpage extends StatefulWidget {
-  const Secondpage({super.key});
+class FirstPage extends StatefulWidget {
+  const FirstPage({super.key});
 
   @override
-  State<Secondpage> createState() => _SecondpageState();
+  State<FirstPage> createState() => _FirstPageState();
 }
 
-class _SecondpageState extends State<Secondpage> {
+class _FirstPageState extends State<FirstPage> {
   var _currentindex = 0;
   @override
   Widget build(BuildContext context) {

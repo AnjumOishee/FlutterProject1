@@ -36,11 +36,3 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-ListTile(
-title: Text("Egypt",style: TextStyle(fontWeight: FontWeight.w800),),
-subtitle: Text("Have a happy Travel with us...."),
-leading: CircleAvatar(
-child: Image.asset("TravelImages/Egypt.jpg",height: 40,width: 40,fit: BoxFit.cover,),
-),
-trailing: Icon(Icons.more),
-)
